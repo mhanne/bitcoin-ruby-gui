@@ -1,0 +1,31 @@
+= Bitcoin-ruby-gui
+
+This is an bitcoin wallet GUI based on bitcoin-ruby using gir_ffi-gtk.
+
+It is in very early development and serves mostly as a proof-of-concept prototype.
+
+
+== Installation
+
+We assume you already have a ruby 1.9 or 2.0 compatible interpreter and rubygems environment.
+
+ git clone https://github.com/mhanne/bitcoin-ruby-gui.git; cd bitcoin-ruby-gui
+ ruby bin/bitcoin_gui
+
+[TODO] gem installation
+
+
+== Documentation
+
+Always trying to improve, any help appreciated! If anything is unclear to you, let us know!
+
+Documentation is generated using yardoc:
+
+ rake doc
+
+The specs are also a good place to see how something works.
+
+
+== License
+
+This software is licensed under the terms of the MIT license. See [link:COPYING] for details.
